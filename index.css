@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-left: 500px;
+    background-color: black;
+    color: gold;
+    width: 400px;
+    margin-top: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+}
+.form{
+    margin-left: 500px;
+    width: 400px;
+    background-color: gold;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 19px black;
+    
+}
+input[type=text]{
+    margin-left: 70px;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 250px;
+    border: none;
+}
+input[type=text]:hover{
+    box-shadow: 0 0 5px black;
+}
+input[type=number]{
+    margin-left: 70px;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 250px;
+    border: none;
+}
+input[type=number]:hover{
+    box-shadow: 0 0 5px black;
+}
+input[type=email]{
+    margin-left: 70px;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 250px;
+    border: none;
+}
+input[type=email]:hover{
+    box-shadow: 0 0 5px black;
+}
+input[type=password]{
+    margin-left: 70px;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 250px;
+    border: none;
+}
+input[type=password]:hover{
+    box-shadow: 0 0 5px black;
+}
+input[type=submit]{
+    margin-left: 150px;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    position: relative;
+    bottom: 10px;
+    border: none;
+    color:gold;
+    background-color: black;
+    width: 100px;
+    text-transform: uppercase;
+    
+    
+}
+input[type=submit]:hover{
+    box-shadow: 0 0 50px whitesmoke;
+}
+
+span{
+    color: red;
+    font-size: 10px;
+    margin-left: 80px;
+}
